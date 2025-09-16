@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Virgil Gayte, computer engineering student, specialized in software development and networks.">
+    <title>Portfolio - Virgil Gayte</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="layout">
+        <aside class="sidebar" role="complementary">
+            <div class="profile">
+                <div class="avatar" aria-hidden="true">V</div>
+                <h1>Virgil Gayte</h1>
+                <p class="subtitle">Computer engineering student</p>
+            </div>
+
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="icon">
+                        <!-- Icône enveloppe -->
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 
+                            2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 
+                            4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                    </span>
+                    <a href="mailto:virgil.gayte@gmail.com" aria-label="Send an email to Virgil">virgil.gayte@gmail.com</a>
+                </div>
+
+                <div class="contact-item">
+                    <span class="icon">
+                        <!-- Téléphone -->
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 
+                            1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 
+                            011 1V20a1 1 0 01-1 1C10.07 21 3 13.93 3 
+                            5a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.46.57 
+                            3.58a1 1 0 01-.24 1.01l-2.2 2.2z"/>
+                        </svg>
+                    </span>
+                    <a href="tel:+33637288714" aria-label="Call the phone number">+33 6 37 28 87 14</a>
+                </div>
+
+                <div class="contact-item">
+                    <span class="icon">
+                        <!-- Localisation -->
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C8.13 2 5 5.13 5 
+                            9c0 5.25 7 13 7 13s7-7.75 
+                            7-13c0-3.87-3.13-7-7-7zm0 
+                            9.5A2.5 2.5 0 1112 6a2.5 2.5 
+                            0 010 5.5z"/>
+                        </svg>
+                    </span>
+                    <span aria-label="Location">Lyon, France</span>
+                </div>
+            </div>
+
+            <div class="social-links">
+                <a href="https://github.com/v-gayte" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <img src="../images/github.png" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/virgil-gayte-068686295" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <img src="../images/linkedin.png" alt="LinkedIn">
+                </a>
+            </div>
+
+            <label class="switch" aria-label="Enable/disable dark mode">
+                <input type="checkbox" id="theme-toggle" aria-checked="false">
+                <span class="slider"></span>
+            </label>
+
+            <div class="language-switcher" role="group" aria-label="Change language">
+                <a href="../fr/index.html" id="lang-fr" class="lang-button" aria-pressed="false">
+                    <img src="../images/fr.png" alt="FR">
+                </a>
+                <button id="lang-en" class="lang-button" aria-pressed="true">
+                    <img src="../images/en.png" alt="EN">
+                </button>
+            </div>
+
+        </aside>
+
+        <div class="content">
+            <header>
+                <nav class="navbar" role="navigation" aria-label="Main navigation">
+                    <ul>
+                        <li><a href="#" data-page="accueil">Home</a></li>
+                        <li><a href="#" data-page="experience">Experience</a></li>
+                        <li><a href="#" data-page="projets">Projects</a></li>
+                        <li><a href="#" data-page="connect">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <main id="main-content" tabindex="-1"></main>
+
+            <footer>
+                <p>&copy; 2025 - Virgil Gayte</p>
+            </footer>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+</html>
