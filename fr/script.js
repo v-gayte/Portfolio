@@ -55,61 +55,74 @@ document.addEventListener('DOMContentLoaded', () => {
         `,
         experience: `
             <section>
-                <h2>Expérience</h2>
-                <div class="exp-sections">
-                    <div>
-                        <h3>Expérience professionnelle</h3>
-                        <ul class="timeline">
-                            <li>
-                                <div class="timeline-point"></div>
-                                <div class="timeline-content">
-                                    <strong>2024</strong> - Stage de 12 semaines chez TDI (Transfert Développement Informatique)<br>
-                                    Migration et optimisation de bibliothèques logicielles en C#.
-                                    <ul>
-                                        <li>Refonte de modules existants pour améliorer les performances</li>
-                                        <li>Ajout de tests unitaires et documentation technique</li>
-                                        <li>Participation à la migration vers .NET 6</li>
-                                    </ul>
-                                </div>
-                            </li>
+    <h2>Expérience</h2>
+    <div class="exp-sections">
+        <div>
+            <h3>Expérience professionnelle</h3>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-point"></div>
+                    <div class="timeline-content">
+                        <strong>Avril 2025 - Juillet 2025</strong> - Stage Développeur chez TDI (Transfert Développement Informatique)<br>
+                        Migration et optimisation de bibliothèques DLL en C# sous .NET 8.
+                        <ul>
+                            <li>Responsable de la migration des bibliothèques vers la dernière version du moteur interne</li>
+                            <li>Amélioration de la compatibilité, des performances et de la maintenabilité du code</li>
                         </ul>
                     </div>
-                    <div>
-                        <h3>Formation</h3>
-                        <ul class="timeline">
-                            <li>
-                                <div class="timeline-point"></div>
-                                <div class="timeline-content">
-                                    <strong>2023 - Présent</strong> - CESI Lyon, Cycle Ingénieur Informatique
-                                    <p><strong>Projets réalisés :</strong></p>
-                                    <ul>
-                                        <li><u>Traitement du signal (Python)</u> : Modulation, émission et réception d’un signal sonore crypté.</li>
-                                        <li><u>Système embarqué (C/C++)</u> : Création d’une station météo via la lecture de capteurs.</li>
-                                        <li><u>Programmation orientée objet (C++)</u> : Implémentation du jeu de la vie.</li>
-                                        <li><u>Systèmes et réseaux</u> : Dimensionnement et mise en place d’un réseau à différentes échelles.</li>
-                                        <li><u>Développement Web (HTML, CSS, JS, Laravel, SQL)</u> : Création d’un site de recherche de stage avec gestion de profils utilisateurs.</li>
-                                        <li><u>Électronique (C Arduino)</u> : Conception de montages simples avec capteurs.</li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="timeline-point"></div>
-                                <div class="timeline-content">
-                                    <p><strong>2020 - 2023</strong> - Baccalauréat Général, Lycée Notre Dame de Bellegarde</p>
-                                    <ul>
-                                        <li>Spécialités : Mathématiques, Numérique et Sciences Informatiques (NSI)</li>
-                                        <li>Option : Mathématiques expertes</li>
-                                        <li>Mention : Bien</li>
-                                    </ul>
-                                </div>
-                            </li>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3>Formation</h3>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-point"></div>
+                    <div class="timeline-content">
+                        <strong>2025 - Présent</strong> - CESI Lyon, Cycle Ingénieur Informatique (section anglophone)<br>
+                        <p><strong>Projets réalisés :</strong></p>
+                        <ul>
+                            <li><u>Algorithmes avancés et combinatoire</u> : Conception et analyse</li>
+                            <li><u>IA et machine learning</u> : Développement d'une IA pour automatiser des tâches basiques</li>
+                            <li><u>Systèmes d'information et sécurité</u> : Méthodes de protection, audit et sécurisation</li>
                         </ul>
                     </div>
-                </div>
-                <div style="text-align:center; margin-top:2.5rem;">
-                    <a href="../images/cv.pdf" class="project-btn" download>Télécharger mon CV (PDF)</a>
-                </div>
-            </section>
+                </li>
+                <li>
+                    <div class="timeline-point"></div>
+                    <div class="timeline-content">
+                        <strong>2023 - 2025</strong> - CESI Lyon, Cycle préparatoire<br>
+                        <p><strong>Projets réalisés :</strong></p>
+                        <ul>
+                            <li><u>Système embarqué (C/C++)</u> : Création et développement d'une station météo via capteurs sur une Arduino</li>
+                            <li><u>Programmation orientée objet (C++)</u> : Implémentation du jeu de la vie</li>
+                            <li><u>Systèmes et réseaux</u> : Dimensionnement et mise en place de réseaux à différentes échelles</li>
+                            <li><u>Développement Web (HTML, CSS, JS, Laravel, SQL)</u> : Développement et déploiement d'un site de recherche de stage avec gestion de profils</li>
+                            <li><u>Traitement du signal (Python)</u> : Implémentation d'un programme de communication et d'encodage via onde radio</li>
+                            <li><u>Modélisation de base de données</u> : Conception d'une base de données pour un réseau de capteurs</li>
+                            <li><u>Électronique</u> : Création d'un coffre-fort avec différents niveaux de sécurité grâce à une Arduino</li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-point"></div>
+                    <div class="timeline-content">
+                        <p><strong>2020 - 2023</strong> - Baccalauréat Général, Lycée Notre Dame de Bellegarde</p>
+                        <ul>
+                            <li>Spécialités : Mathématiques, Numérique et Sciences Informatiques (NSI)</li>
+                            <li>Option : Mathématiques expertes</li>
+                            <li>Mention : Bien</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div style="text-align:center; margin-top:2.5rem;">
+        <a href="../images/cv.pdf" class="project-btn" download>Télécharger mon CV (PDF)</a>
+    </div>
+</section>
+
         `,
         connect: `
             <section>

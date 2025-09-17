@@ -276,7 +276,6 @@ footer {
     margin: 2rem auto 1.5rem auto;
     display: flex;
     flex-direction: column;
-    gap: 1.1rem;
 }
 .contact-form label {
     font-weight: 500;
@@ -294,6 +293,7 @@ footer {
     color: var(--color-text);
     transition: border 0.2s, background 0.2s;
     box-sizing: border-box;
+    margin-bottom: 1.1rem;
 }
 .contact-form input:focus,
 .contact-form textarea:focus {
@@ -387,7 +387,7 @@ body.dark .contact-form textarea:focus {
 }
 .timeline li {
     position: relative;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.4rem;
     min-height: 32px;
 }
 .timeline-content {
