@@ -130,7 +130,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>Actuellement étudiant et toujours à la recherche de stages ou de nouvelles opportunités, je suis enthousiaste à l’idée de découvrir des projets stimulants et d’échanger avec des professionnels du secteur.</p>
                 <p>Si vous souhaitez collaborer, partager des conseils ou simplement discuter de vos projets, n’hésitez pas à me contacter par email à <a href="mailto:virgil.gayte@gmail.com">virgil.gayte@gmail.com</a> ou via le formulaire ci-dessous.</p>
                 <p>Au plaisir de vous lire et d’échanger avec vous !</p>
-                <form id="contact-form" class="contact-form">
+                <form 
+                    id="contact-form" 
+                    class="contact-form"
+                    action="https://formspree.io/f/xvgbllgd"
+                    method="POST"
+                >
                     <div class="form-row">
                         <div class="form-group">
                             <label for="user_name">Nom :</label>

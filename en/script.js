@@ -130,7 +130,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 <p>Currently a student and always looking for internships or new opportunities, I am eager to discover exciting projects and connect with professionals in the field.</p>
                 <p>If you would like to collaborate, share advice, or simply discuss your projects, feel free to contact me by email at <a href="mailto:virgil.gayte@gmail.com">virgil.gayte@gmail.com</a> or via the form below.</p>
                 <p>I look forward to hearing from you and exchanging ideas!</p>
-                <form id="contact-form" class="contact-form">
+                <form 
+                    id="contact-form" 
+                    class="contact-form"
+                    action="https://formspree.io/f/xvgbllgd"
+                    method="POST"
+                >
                     <div class="form-row">
                         <div class="form-group">
                             <label for="user_name">Name:</label>
