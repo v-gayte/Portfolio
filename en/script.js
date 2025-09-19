@@ -55,73 +55,73 @@ document.addEventListener('DOMContentLoaded', () => {
         `,
         experience: `
             <section>
-    <h2>Experience</h2>
-    <div class="exp-sections">
-        <div>
-            <h3>Professional Experience</h3>
-            <ul class="timeline">
-                <li>
-                    <div class="timeline-point"></div>
-                    <div class="timeline-content">
-                        <strong>April 2025 - July 2025</strong> - Developer Intern at TDI (Transfert Développement Informatique)<br>
-                        Migration and optimization of DLL libraries in C# under .NET 8.
-                        <ul>
-                            <li>Responsible for migrating libraries to the latest version of the internal engine</li>
-                            <li>Improved compatibility, performance, and code maintainability</li>
+                <h2>Experience</h2>
+                <div class="exp-sections">
+                    <div>
+                        <h3>Professional Experience</h3>
+                        <ul class="timeline">
+                            <li>
+                                <div class="timeline-point"></div>
+                                <div class="timeline-content">
+                                    <strong>April 2025 - July 2025</strong> - Developer Intern at TDI (Transfert Développement Informatique)<br>
+                                    Migration and optimization of DLL libraries in C# under .NET 8.
+                                    <ul>
+                                        <li>Responsible for migrating libraries to the latest version of the internal engine</li>
+                                        <li>Improved compatibility, performance, and code maintainability</li>
+                                    </ul>
+                                </div>
+                            </li>
                         </ul>
                     </div>
-                </li>
-            </ul>
-        </div>
-        <div>
-            <h3>Education</h3>
-            <ul class="timeline">
-                <li>
-                    <div class="timeline-point"></div>
-                    <div class="timeline-content">
-                        <strong>2025 - Present</strong> - CESI Lyon, Computer Engineering Program (English section)<br>
-                        <p><strong>Projects completed:</strong></p>
-                        <ul>
-                            <li><u>Advanced algorithms and combinatorics</u>: Design and analysis</li>
-                            <li><u>AI and machine learning</u>: Developed an AI to automate basic tasks</li>
-                            <li><u>Information systems and security</u>: Protection methods, auditing, and securing</li>
+                    <div>
+                        <h3>Education</h3>
+                        <ul class="timeline">
+                            <li>
+                                <div class="timeline-point"></div>
+                                <div class="timeline-content">
+                                    <strong>2025 - Present</strong> - CESI Lyon, Computer Engineering Program (English section)<br>
+                                    <p><strong>Projects completed:</strong></p>
+                                    <ul>
+                                        <li><u>Advanced algorithms and combinatorics</u>: Design and analysis</li>
+                                        <li><u>AI and machine learning</u>: Developed an AI to automate basic tasks</li>
+                                        <li><u>Information systems and security</u>: Protection methods, auditing, and securing</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-point"></div>
+                                <div class="timeline-content">
+                                    <strong>2023 - 2025</strong> - CESI Lyon, Preparatory Cycle<br>
+                                    <p><strong>Projects completed:</strong></p>
+                                    <ul>
+                                        <li><u>Embedded system (C/C++)</u>: Designed and developed a weather station using sensors on an Arduino</li>
+                                        <li><u>Object-oriented programming (C++)</u>: Implementation of the Game of Life</li>
+                                        <li><u>Systems and networks</u>: Designing and setting up networks at different scales</li>
+                                        <li><u>Web development (HTML, CSS, JS, Laravel, SQL)</u>: Development and deployment of an internship search website with profile management</li>
+                                        <li><u>Signal processing (Python)</u>: Implementation of a communication and encoding program via radio waves</li>
+                                        <li><u>Database modeling</u>: Designing a database for a sensor network</li>
+                                        <li><u>Electronics</u>: Created a safe with different security levels using an Arduino</li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-point"></div>
+                                <div class="timeline-content">
+                                    <p><strong>2020 - 2023</strong> - General Baccalaureate, Lycée Notre Dame de Bellegarde</p>
+                                    <ul>
+                                        <li>Specializations: Mathematics, Computer Science (NSI)</li>
+                                        <li>Option: Advanced Mathematics</li>
+                                        <li>Honors: Good</li>
+                                    </ul>
+                                </div>
+                            </li>
                         </ul>
                     </div>
-                </li>
-                <li>
-                    <div class="timeline-point"></div>
-                    <div class="timeline-content">
-                        <strong>2023 - 2025</strong> - CESI Lyon, Preparatory Cycle<br>
-                        <p><strong>Projects completed:</strong></p>
-                        <ul>
-                            <li><u>Embedded system (C/C++)</u>: Designed and developed a weather station using sensors on an Arduino</li>
-                            <li><u>Object-oriented programming (C++)</u>: Implementation of the Game of Life</li>
-                            <li><u>Systems and networks</u>: Designing and setting up networks at different scales</li>
-                            <li><u>Web development (HTML, CSS, JS, Laravel, SQL)</u>: Development and deployment of an internship search website with profile management</li>
-                            <li><u>Signal processing (Python)</u>: Implementation of a communication and encoding program via radio waves</li>
-                            <li><u>Database modeling</u>: Designing a database for a sensor network</li>
-                            <li><u>Electronics</u>: Created a safe with different security levels using an Arduino</li>
-                        </ul>
-                    </div>
-                </li>
-                <li>
-                    <div class="timeline-point"></div>
-                    <div class="timeline-content">
-                        <p><strong>2020 - 2023</strong> - General Baccalaureate, Lycée Notre Dame de Bellegarde</p>
-                        <ul>
-                            <li>Specializations: Mathematics, Computer Science (NSI)</li>
-                            <li>Option: Advanced Mathematics</li>
-                            <li>Honors: Good</li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div style="text-align:center; margin-top:2.5rem;">
-        <a href="../images/cv.pdf" class="project-btn" download>Download my CV (PDF)</a>
-    </div>
-</section>
+                </div>
+                <div style="text-align:center; margin-top:2.5rem;">
+                    <a href="../images/cv.pdf" class="project-btn" download>Download my CV (PDF)</a>
+                </div>
+            </section>
 
         `,
         contact: `
@@ -159,7 +159,7 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     function navigate(page) {
-        main.innerHTML = pages[page] || pages.accueil;
+        main.innerHTML = pages[page] || pages.home;
         navLinks.forEach(link => link.classList.toggle('active', link.dataset.page === page));
         main.focus();
         window.scrollTo(0, 0);
