@@ -235,7 +235,7 @@ input:checked + .slider:before {
 }
 .navbar a:hover,
 .navbar a.active {
-    color: var(--color-accent);
+    color: hsl(169, 29%, 63%);;
 }
 
 /* =====================
@@ -334,7 +334,7 @@ body.dark .contact-form textarea:focus {
     align-self: flex-end;
 }
 .btn-submit:hover {
-    background: #0056b3;
+    background: hsl(169, 29%, 63%);
 }
 
 .form-row {
@@ -469,7 +469,7 @@ body.dark .project-tags span {
     display: inline-block;
 }
 .project-btn:hover {
-    background: #0056b3;
+    background: hsl(169, 29%, 63%);
 }
 
 /* =====================
