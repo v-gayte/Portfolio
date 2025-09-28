@@ -180,5 +180,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Default page
-    navigate('accueil');
+    navigate('home');
 });
